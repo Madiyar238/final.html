@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/YouTube/online.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>YouTube стиль</title>
+  <link rel="stylesheet" href="./YouTube стиль_files/style30.css">
+</head>
+<body>
+
+  <div class="video-list">
+
+    <!-- Видео 1 -->
+    <div class="video-card">
+      <div class="video-thumb">
+        <img src="./YouTube стиль_files/NINTCHDBPICT000498327862-1.jpg" alt="История игрушек">
+      </div>
+      <div class="video-info">
+        <img class="channel-avatar" src="./YouTube стиль_files/image.jpg" alt="Pixar">
+        <div>
+          <div class="video-title">История игрушек (Toy Story)</div>
+          <div class="video-channel">Disney Pixar • 25 млн просмотров • 2 недели назад</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Видео 2 -->
+    <div class="video-card">
+      <div class="video-thumb">
+        <img src="./YouTube стиль_files/maxresdefault.jpg" alt="Человек-паук">
+      </div>
+      <div class="video-info">
+        <img class="channel-avatar" src="./YouTube стиль_files/81yiD052ddL._AC_UL960_QL65_.jpg" alt="Marvel">
+        <div>
+          <div class="video-title">Человек-паук: Нет пути домой</div>
+          <div class="video-channel">Marvel Entertainment • 48 млн просмотров • 1 месяц назад</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Видео 3 -->
+    <div class="video-card">
+      <div class="video-thumb">
+        <img src="./YouTube стиль_files/maxresdefault(1).jpg" alt="Frozen">
+      </div>
+      <div class="video-info">
+        <img class="channel-avatar" src="./YouTube стиль_files/skynews-disney-plus-streaming_4636681.jpg" alt="Disney">
+        <div>
+          <div class="video-title">Холодное сердце (Frozen)</div>
+          <div class="video-channel"> • 100 млн просмотров • 3 месяца назад</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

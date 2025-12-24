@@ -1,0 +1,16 @@
+.parent {
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+.child {
+    font-size: 2em;
+
+}
+
+.percent {
+    width: 300px;
+    height: 300;
+}

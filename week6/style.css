@@ -1,0 +1,11 @@
+table,th,td,tr {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+
+body {
+    background-color: lightblue;
+}
+
+    

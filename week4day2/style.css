@@ -1,0 +1,31 @@
+.static {
+    position: static;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: skyblue;
+    width: 200px;
+    top: 200px;
+    left: 100px;
+    z-index: 110000000000000000000000000000000000000000000000000000000000;
+    margin-top: 100px;
+}
+
+.relative {
+    position: relative;
+    padding: 50px;
+    border-radius: 20px;
+    width: 200px;
+    background-color: lightgreen;
+    top: 200px;
+    left: 200px;
+}
+
+
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: pink;
+    
+}

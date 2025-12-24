@@ -1,0 +1,12 @@
+.transform {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: translate(500px, 100px);
+    transform: scale(1);
+    transform: skew(20deg);
+}

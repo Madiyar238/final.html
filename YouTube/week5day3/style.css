@@ -1,0 +1,74 @@
+@import './reset.css';
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    color:#999 ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.left_navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav_link h3{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+}
+
+.right_navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.link_icon {
+    width: 22px;
+    height: 22px;
+}
+
+.search {
+    background-color: #989898;
+    width: 300px;
+    padding: 8px 8x;
+    border-radius: 10px;
+    opacity: 0.5;
+    color: white;
+}
+
+.search:focus {
+    background-color: white;
+    opacity:1;
+    color: #000;
+
+}
+

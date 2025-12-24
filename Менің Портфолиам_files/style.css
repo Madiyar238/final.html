@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f8fb;
+    color: #222;
+  }
+  
+  /* Fixed header */
+  .main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #008cff;
+    color: #0d5fb2;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 2px 6px rgb(9, 0, 255);
+  }
+  
+  /* Негізгі бөлім */
+  main {
+    margin-top: 80px; /* header астына түсіру үшін */
+    padding: 20px;
+  }
+  
+  /* Relative + absolute баннер */
+  .news-section {
+    position: relative;
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .banner {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #00b894;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  /* Sticky меню */
+  .sticky-menu {
+    position: sticky;
+    top: 70px;
+    background: #e6f7f5;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+  }
+  
+  .sticky-menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #006666;
+    transition: 0.3s;
+  }
+  
+  .sticky-menu a:hover {
+    color: #00cc88;
+  }
+  
+  /* Fixed contact button */
+  .contact-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #006666;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background: #0022ff;
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.5);
+  }
+
+  img {
+    border: solid black;
+    border-radius: 30px;
+    box-shadow: 0px 30px 86px 59px rgba(142, 142, 142, 0.2);
+  }
+
+  .card {
+  border: solid black;
+  border-radius: 30px;
+  }
+
+ 

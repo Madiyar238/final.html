@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylecon.css">
+</head>
+<body>
+     <form>
+        <label style="display: block;" for="username">Атыңыз</label>
+        <input 
+        type="text"
+        placeholder="Атыңызды еңгіз"
+        id="username"
+        required
+        pattern="[A-Za-z0-9]{3 ,10}"
+        >
+
+        <label style="display: block;" for="email">Email</label>
+        <input 
+        type="text"
+        placeholder="Email еңгіз"
+        id="Email"
+        required
+        pattern="[A-Za-z0-9]{3 ,10}"
+        >
+
+        <label style="display: block;" for="">password</label>
+        <input
+        id="password"
+        placeholder="құпия сөз"
+        type="password"
+        >
+
+        
+
+        <label style="display: block;" for="">Туылған күнің</label>
+        <input
+          id="zhas"
+          type="date"
+          name="date"
+          >
+        
+        <label style="display:block;" for="age">Жасың</label>
+        <input
+            id="age"
+            type="number"
+            min="14"
+            max="45"
+          >   
+          <button>жіберу</button>
+    </form>
+</body>
+</html>
